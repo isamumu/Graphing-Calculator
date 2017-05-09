@@ -4,7 +4,7 @@ import java.awt.Graphics;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
-//GraphingPanel class
+
 public class GraphingPanel extends JPanel {
 	private static final long serialVersionUID = 1L;//dont mind
 	

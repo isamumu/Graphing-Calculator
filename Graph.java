@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 import javax.swing.JFrame;
-//graph class
+
 public class Graph {
 	public static void main(String[] args) {
 		GraphingCalculator graph = new GraphingCalculator();

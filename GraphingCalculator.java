@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-//Graphing Calculator class
+
 // use .matches . returns true if the string contains the pattern exactly
 public class GraphingCalculator {
 	private double x;
