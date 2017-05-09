@@ -1,4 +1,5 @@
 import java.awt.BorderLayout;
+import java.awt.Graphics;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,5 +28,6 @@ public class Graph {
 		
 		frame.setVisible(true);
 		frame.setResizable(false);
+		
 	}
 }
