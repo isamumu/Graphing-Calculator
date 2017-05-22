@@ -26,7 +26,6 @@ public class GraphFrame implements ActionListener {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container pane = frame.getContentPane();
 		pane.setLayout(new BoxLayout(pane, BoxLayout.Y_AXIS));
-		frame.setLayout(new BorderLayout()); // original code
 		graphingPanel = new GraphingPanel(null);
 		inputPanel = new JPanel(); // create an object for the textBox
 		textField = new JTextField(); // create an object for the textField
@@ -37,9 +36,6 @@ public class GraphFrame implements ActionListener {
 		inputPanel.add(graphButton);
 		pane.add(graphingPanel);
 		pane.add(inputPanel);
-		frame.pack();
-
-		frame.add(graphingPanel);
 		frame.pack();
 
 		frame.setVisible(true);
